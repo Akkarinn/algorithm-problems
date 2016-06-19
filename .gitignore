@@ -1,4 +1,7 @@
 # Compiled Object files
+Win32/
+Debug/
+Release/
 *.slo
 *.lo
 *.o
@@ -27,3 +30,17 @@
 *.exe
 *.out
 *.app
+
+# Cmake
+*.cmake
+CMakeFiles/
+CmakeCache.txt
+
+# VS files
+*.vcproj
+*.vcproj.*
+*.vcxproj
+*.vcxproj.*
+*.opensdf
+*.sln
+*.suo
