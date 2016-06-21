@@ -1,1 +1,2 @@
 add_subdirectory(maximum_depth)
+add_subdirectory(minimum_depth)
