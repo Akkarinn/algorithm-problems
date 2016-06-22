@@ -8,9 +8,9 @@
  */
 #define CATCH_CONFIG_MAIN 
 #include <catch/catch.hpp>
- 
- namespace {
- 
+
+namespace {
+
    class Solution {
    public:
       int reverse(int x) const {
@@ -25,22 +25,22 @@
          }
          if (value != 0)
             return 0;
-          return x > 0 ? res : - res;
+         return x > 0 ? res : - res;
       }
    };
 
 }
 
 TEST_CASE( "Reverse Integer", "[test]" ) {
-    Solution solver;
+   Solution solver;
 
-    CHECK( solver.reverse(std::numeric_limits<int>::min()) == 0 );
-    CHECK( solver.reverse(std::numeric_limits<int>::max()) == 0 );
+   CHECK( solver.reverse(std::numeric_limits<int>::min()) == 0 );
+   CHECK( solver.reverse(std::numeric_limits<int>::max()) == 0 );
     
-    CHECK( solver.reverse(-123)       ==  -321 );
-    CHECK( solver.reverse(-1)         == -1 );
-    CHECK( solver.reverse(0)          ==  0 );
-    CHECK( solver.reverse(1)          ==  1 );
-    CHECK( solver.reverse(123)        ==  321 );
-    CHECK( solver.reverse(1463847412) ==  2147483641 );
+   CHECK( solver.reverse(-123)       ==  -321 );
+   CHECK( solver.reverse(-1)         == -1 );
+   CHECK( solver.reverse(0)          ==  0 );
+   CHECK( solver.reverse(1)          ==  1 );
+   CHECK( solver.reverse(123)        ==  321 );
+   CHECK( solver.reverse(1463847412) ==  2147483641 );
 }

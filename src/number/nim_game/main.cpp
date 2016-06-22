@@ -21,7 +21,7 @@ namespace {
 
 TEST_CASE( "Nim Game", "[test]" ) {
     Solution solver;
-    
+
     CHECK( solver.canWinNim(-40) == false );
     CHECK( solver.canWinNim(-1) == true );
     CHECK( solver.canWinNim(0) == false );

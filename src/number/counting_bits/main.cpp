@@ -14,12 +14,12 @@
  */
 #define CATCH_CONFIG_MAIN 
 #include <catch/catch.hpp>
- 
- #include <algorithm>
- #include <numeric>
 
- namespace {
- 
+#include <algorithm>
+#include <numeric>
+
+namespace {
+
    class Solution {
    public:
       std::vector<int> countBits(int num) const {
@@ -34,32 +34,31 @@
          
             auto nextPowTwo = 2;
             for (auto i = 2; i <= num; ++i) {
-                if (nextPowTwo == i)
-                    nextPowTwo = nextPowTwo << 1;
-                results[i] = 1 + results[i - (nextPowTwo >> 1)];
+               if (nextPowTwo == i)
+			      nextPowTwo = nextPowTwo << 1;
+               results[i] = 1 + results[i - (nextPowTwo >> 1)];
             }
          }
-         return results;  
+         return results;
       }
-   };   
-       
+   };
 }      
 
 TEST_CASE( "Counting Bits", "[test]" ) {
    Solution solver;
 
-    std::vector<int> nums;
-    nums.push_back(0);
-    CHECK( solver.countBits(0) == nums );
+   std::vector<int> nums;
+   nums.push_back(0);
+   CHECK( solver.countBits(0) == nums );
 
-    nums.push_back(1);
-    CHECK( solver.countBits(1) == nums );
+   nums.push_back(1);
+   CHECK( solver.countBits(1) == nums );
 
-    nums.push_back(1);
-    nums.push_back(2);
-    CHECK( solver.countBits(3) == nums );
+   nums.push_back(1);
+   nums.push_back(2);
+   CHECK( solver.countBits(3) == nums );
 
-    nums.push_back(1);
-    nums.push_back(2);
-    CHECK( solver.countBits(5) == nums );
+   nums.push_back(1);
+   nums.push_back(2);
+   CHECK( solver.countBits(5) == nums );
 }
