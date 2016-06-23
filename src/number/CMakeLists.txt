@@ -1,7 +1,5 @@
 add_subdirectory(add_digits)
-add_subdirectory(counting_bits)
 add_subdirectory(nim_game)
-add_subdirectory(number_of_1_bits)
 add_subdirectory(power_of_two)
 add_subdirectory(reverse_integer)
 add_subdirectory(single_number)

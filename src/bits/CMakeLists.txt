@@ -1,0 +1,2 @@
+add_subdirectory(counting_bits)
+add_subdirectory(number_of_1_bits)
