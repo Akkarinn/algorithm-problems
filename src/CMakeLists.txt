@@ -1,4 +1,5 @@
 add_subdirectory(array)
 add_subdirectory(bits)
 add_subdirectory(number)
+add_subdirectory(priority_queue)
 add_subdirectory(tree)
