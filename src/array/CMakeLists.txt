@@ -1,4 +1,5 @@
 add_subdirectory(contains_duplicate)
+add_subdirectory(disappeared_numbers)
 add_subdirectory(gas_station)
 add_subdirectory(missing_number)
 add_subdirectory(move_zeroes)
