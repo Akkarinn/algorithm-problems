@@ -1,4 +1,5 @@
 add_subdirectory(arrays_intersection)
+add_subdirectory(arrays_intersection_2)
 add_subdirectory(contains_duplicate)
 add_subdirectory(disappeared_numbers)
 add_subdirectory(gas_station)
