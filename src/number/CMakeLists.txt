@@ -1,4 +1,5 @@
 add_subdirectory(add_digits)
+add_subdirectory(fizz_buzz)
 add_subdirectory(nim_game)
 add_subdirectory(power_of_two)
 add_subdirectory(reverse_integer)
