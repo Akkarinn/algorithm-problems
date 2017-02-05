@@ -1,2 +1,3 @@
 add_subdirectory(all_anagrams)
 add_subdirectory(longest_palindrome)
+add_subdirectory(valid_anagram)
