@@ -1,4 +1,5 @@
 add_subdirectory(all_anagrams)
 add_subdirectory(longest_palindrome)
+add_subdirectory(repeated_substring_pattern)
 add_subdirectory(reverse_vowels)
 add_subdirectory(valid_anagram)
