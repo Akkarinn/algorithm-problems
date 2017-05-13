@@ -1,4 +1,5 @@
 add_subdirectory(find_bottom_left_tree_value)
 add_subdirectory(maximum_depth)
 add_subdirectory(minimum_depth)
+add_subdirectory(minimum_height_trees)
 add_subdirectory(sum_left_leaves)
