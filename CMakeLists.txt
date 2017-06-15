@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.7)
 
 project("algorithm-problems" CXX)
+enable_testing()
 
 set(CMAKE_INCLUDE_DIR ${CMAKE_SOURCE_DIR}/include)
  

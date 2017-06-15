@@ -1,5 +1,7 @@
 
+set(LIB recover_binary_search_tree)
 set(SOURCE_FILES main.cpp)
 
 include_directories(${CMAKE_INCLUDE_DIR})
-add_executable(recover_binary_search_tree ${SOURCE_FILES})
+add_executable(${LIB} ${SOURCE_FILES})
+add_test(NAME ${LIB} COMMAND ${CMAKE_CURRENT_DIR}/${LIB})

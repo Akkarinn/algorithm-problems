@@ -1,5 +1,7 @@
 
+set(LIB repeated_substring_pattern)
 set(SOURCE_FILES main.cpp)
 
 include_directories(${CMAKE_INCLUDE_DIR})
-add_executable(repeated_substring_pattern ${SOURCE_FILES})
+add_executable(${LIB} ${SOURCE_FILES})
+add_test(NAME ${LIB} COMMAND ${CMAKE_CURRENT_DIR}/${LIB})

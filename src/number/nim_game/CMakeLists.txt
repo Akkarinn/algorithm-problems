@@ -1,5 +1,7 @@
 
+set(LIB nim_game)
 set(SOURCE_FILES main.cpp)
 
 include_directories(${CMAKE_INCLUDE_DIR})
-add_executable(nim_game ${SOURCE_FILES})
+add_executable(${LIB} ${SOURCE_FILES})
+add_test(NAME ${LIB} COMMAND ${CMAKE_CURRENT_DIR}/${LIB})
