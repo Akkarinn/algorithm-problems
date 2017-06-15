@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.7)
 
-project("interview-problem" CXX)
+project("algorithm-problems" CXX)
 
 set(CMAKE_INCLUDE_DIR ${CMAKE_SOURCE_DIR}/include)
  
