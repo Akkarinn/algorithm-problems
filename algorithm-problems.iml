@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/string/detect_capital" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/test/string/detect_capital" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/src/CMakeFiles" />
+      <excludeFolder url="file://$MODULE_DIR$/src/array" />
+      <excludeFolder url="file://$MODULE_DIR$/src/bits" />
+      <excludeFolder url="file://$MODULE_DIR$/src/list" />
+      <excludeFolder url="file://$MODULE_DIR$/src/number" />
+      <excludeFolder url="file://$MODULE_DIR$/src/order" />
+      <excludeFolder url="file://$MODULE_DIR$/src/priority_queue" />
+      <excludeFolder url="file://$MODULE_DIR$/src/string/CMakeFiles" />
+      <excludeFolder url="file://$MODULE_DIR$/src/string/all_anagrams" />
+      <excludeFolder url="file://$MODULE_DIR$/src/string/all_anagrams.dir" />
+      <excludeFolder url="file://$MODULE_DIR$/src/string/all_anagrams.dir/Debug" />
+      <excludeFolder url="file://$MODULE_DIR$/src/string/bulls_and_cows" />
+      <excludeFolder url="file://$MODULE_DIR$/src/string/bulls_and_cows.dir" />
+      <excludeFolder url="file://$MODULE_DIR$/src/string/bulls_and_cows.dir/Debug" />
+      <excludeFolder url="file://$MODULE_DIR$/src/string/detect_capital/CMakeFiles" />
+      <excludeFolder url="file://$MODULE_DIR$/src/string/detect_capital/x64/Debug/DetectCapital" />
+      <excludeFolder url="file://$MODULE_DIR$/src/string/is_subsequence" />
+      <excludeFolder url="file://$MODULE_DIR$/src/string/is_subsequence.dir" />
+      <excludeFolder url="file://$MODULE_DIR$/src/string/is_subsequence.dir/Debug" />
+      <excludeFolder url="file://$MODULE_DIR$/src/string/longest_palindrome" />
+      <excludeFolder url="file://$MODULE_DIR$/src/string/longest_palindrome.dir" />
+      <excludeFolder url="file://$MODULE_DIR$/src/string/longest_palindrome.dir/Debug" />
+      <excludeFolder url="file://$MODULE_DIR$/src/string/repeated_substring_pattern" />
+      <excludeFolder url="file://$MODULE_DIR$/src/string/repeated_substring_pattern.dir" />
+      <excludeFolder url="file://$MODULE_DIR$/src/string/repeated_substring_pattern.dir/Debug" />
+      <excludeFolder url="file://$MODULE_DIR$/src/string/reverse_vowels" />
+      <excludeFolder url="file://$MODULE_DIR$/src/string/reverse_vowels.dir" />
+      <excludeFolder url="file://$MODULE_DIR$/src/string/reverse_vowels.dir/Debug" />
+      <excludeFolder url="file://$MODULE_DIR$/src/string/valid_anagram" />
+      <excludeFolder url="file://$MODULE_DIR$/src/string/valid_anagram.dir" />
+      <excludeFolder url="file://$MODULE_DIR$/src/string/valid_anagram.dir/Debug" />
+      <excludeFolder url="file://$MODULE_DIR$/src/string/x64" />
+      <excludeFolder url="file://$MODULE_DIR$/src/string/x64/Debug" />
+      <excludeFolder url="file://$MODULE_DIR$/src/string/x64/Debug/DetectCapital" />
+      <excludeFolder url="file://$MODULE_DIR$/src/tree" />
+    </content>
+    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/build/bin/scala-xml_2.11-1.0.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/build/bin/scalactic_2.11-3.0.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/build/bin/scalatest_2.11-2.1.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="detect_capital" level="project" />
+    <orderEntry type="library" name="scala-sdk-2.11.11" level="project" />
+  </component>
+</module>

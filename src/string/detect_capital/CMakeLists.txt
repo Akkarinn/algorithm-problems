@@ -1,9 +1,8 @@
 
-set(LIB_NAME DetectCapital)
-set(SOURCE_FILE DetectCapital.java)
+set(LIB DetectCapital)
+set(SOURCE_FILES DetectCapital.scala)
 
-add_jar(${LIB_NAME} ${SOURCE_FILE})
+add_jar(${LIB} ${SOURCE_FILES})
 
-get_target_property(_jarFile ${LIB_NAME} JAR_FILE)
-add_custom_target(DetectCapitalTest COMMAND ${Java_JAVA_EXECUTABLE} -cp ${_jarFile} DetectCapital)
-#add_test(NAME DetectCapitalTest COMMAND ${Java_JAVA_EXECUTABLE} -cp ${_jarFile} DetectCapital)
+get_target_property(_jarFile ${LIB} JAR_FILE)
+add_test(NAME ${LIB}Test COMMAND ${Java_JAVA_EXECUTABLE} -cp ${_jarFile} DetectCapital)
