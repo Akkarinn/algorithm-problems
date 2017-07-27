@@ -1,6 +1,5 @@
 add_subdirectory(all_anagrams)
 add_subdirectory(bulls_and_cows)
-add_subdirectory(detect_capital)
 add_subdirectory(is_subsequence)
 add_subdirectory(longest_palindrome)
 add_subdirectory(repeated_substring_pattern)
