@@ -1,1 +1,2 @@
 add_subdirectory(largest_rectangle_in_histogram)
+add_subdirectory(max_points_on_a_line)
